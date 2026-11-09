@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Activity, Aperture, ArrowUpRight, Boxes, BrainCircuit, Check, ChevronDown, CircleHelp, Command, Compass, GitBranch, Layers3, MessageSquare, Plus, Send, Settings2, Sparkles, Workflow, X } from 'lucide-react'
+import { Activity, Aperture, ArrowUpRight, Boxes, BrainCircuit, Check, ChevronDown, CircleHelp, Command, Compass, GitBranch, Layers3, Plus, Send, Settings2, Sparkles, Workflow } from 'lucide-react'
 
 type NodeKind = 'Vision' | 'Project' | 'Workflow' | 'Feature' | 'Question' | 'Decision'
 type ModelNode = { id: string; title: string; kind: NodeKind; detail: string; status: string }
